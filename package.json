@@ -2,7 +2,7 @@
   "name": "webscrapingtest",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "app.js",
   "engines": {
     "node": "14.17.5"
   },
