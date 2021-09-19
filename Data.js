@@ -5,7 +5,7 @@ const fs = require('fs');
 const launchOptions = {
     // uncomment this, when u want to develop on local machine
     // executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
-    // args: ['--start-maximized'],
+    args: ['--no-sandbox','--disable-setuid-sandbox'],
     headless: true
 };
 
