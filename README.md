@@ -1,0 +1,1 @@
+Change package.json from puppeteer-core to puppeteer when you want to deploy it.

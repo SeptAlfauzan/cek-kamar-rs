@@ -1,10 +1,11 @@
-const puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer');//change to puppeteer-core when developing on  local machine
 const fs = require('fs');
 
 
 const launchOptions = {
-    executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
-    args: ['--start-maximized'],
+    // uncomment this, when u want to develop on local machine
+    // executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+    // args: ['--start-maximized'],
     headless: true
 };
 

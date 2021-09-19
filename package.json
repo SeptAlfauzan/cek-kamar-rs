@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "puppeteer-core": "^10.2.0"
+    "puppeteer": "^10.2.0"
   }
 }
