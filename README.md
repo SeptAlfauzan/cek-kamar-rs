@@ -1,6 +1,6 @@
 ## Welcome To [cek-kamar-rs](https://cek-kamar-rs.herokuapp.com) API Documentation
 
-This is side project to re-learn express js. The data that I used data is from [SIRANAP APP](https://yankes.kemkes.go.id/app/siranap/). I hope you can create some impactfull program using this API 😊
+This is API that gather hospital's room information such available bed capacity and many more to help others find hospital's bed for covid patients. The data that I used data is from [SIRANAP APP](https://yankes.kemkes.go.id/app/siranap/). I hope you can create some impactfull program using this API 😊
 ____
 
 Request to Get All Provinces Data
