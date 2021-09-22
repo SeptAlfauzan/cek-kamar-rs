@@ -5,3 +5,12 @@ GET http://localhost:3000/provinsi HTTP/1.1
 GET http://localhost:3000/rumahsakit?prov=35prop&city= HTTP/1.1
 ###
 GET http://localhost:3000/kabupaten?prov=11prop HTTP/1.1
+
+###
+GET https://cek-kamar-rs.herokuapp.com/ HTTP/1.1
+###
+GET https://cek-kamar-rs.herokuapp.com/provinsi HTTP/1.1
+###
+GET https://cek-kamar-rs.herokuapp.com/rumahsakit?prov=35prop&city= HTTP/1.1
+###
+GET https://cek-kamar-rs.herokuapp.com/kabupaten?prov=11prop HTTP/1.1
