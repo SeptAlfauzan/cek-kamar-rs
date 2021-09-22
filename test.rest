@@ -1,1 +1,7 @@
 GET http://localhost:3000/ HTTP/1.1
+###
+GET http://localhost:3000/provinsi HTTP/1.1
+###
+GET http://localhost:3000/rumahsakit?prov=35prop&city= HTTP/1.1
+###
+GET http://localhost:3000/kabupaten?prov=11prop HTTP/1.1
