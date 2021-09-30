@@ -1,2 +1,4 @@
 {
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true
 }
