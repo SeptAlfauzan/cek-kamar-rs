@@ -1,15 +1,21 @@
 const express = require('express');
 const app = express();
 const ejs = require('ejs');
+const favicon = require('serve-favicon');
 const port = process.env.PORT || 3000;
 
 const Data = require('./Data.js');
 
+const iconPath = '/public/images/icons/hospital.png';
+
 app.use(express.static(__dirname + '/public'));
+// default website icon
+app.use(favicon(__dirname + iconPath));
+
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res)=>{
-    res.render('home');
+    res.render('home', {iconPath});
     // res.send('Welcome, for documentation check this <a href="https://github.com/SeptAlfauzan/cek-kamar-rs">link</a>');
 });
 app.get('/learn', (req, res)=>{

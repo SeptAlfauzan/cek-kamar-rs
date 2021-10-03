@@ -7,21 +7,15 @@
     <title>Welcome To Docs</title>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
-<body>
-        <!-- side bar -->
-        <div id="sidebar" class="grid md:grid-cols-3 bg-gray-400">
-            <h3>Ini sidebar</h3>
+<body class="bg-gray-50">
+        <div id="content" class="border-red-600 grid grid-flow-row h-full">
+            <div class="mx-auto mt-60 text-center bg-white rounded-lg shadow-lg p-10"> 
+                <img class="w-20 mx-auto" src="<%= iconPath.replace('/public', '') %>" alt="icon" srcset="">
+                <h4 class="text-2xl">Selamat datang pada</h4>
+                <p class="text-gray-400">Lihat <a href="https://github.com/SeptAlfauzan/cek-kamar-rs" class="font-bold text-green hover:text-green-400">dokumentasi.</a></p>
+                <div class="text-green-300">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a class="hover:text-green-400 font-bold" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </div>
         </div>
-        <div id="content" class="grid md:grid-cols-5 bg-gray-500">
-            <h3>Ini content</h3>
-        </div>
-
-    <div class="flex flex-row-reverse ...">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-      </div>
     <!-- content -->
-    <a href="https://github.com/SeptAlfauzan/cek-kamar-rs">Documentation</a>
 </body>
 </html>
