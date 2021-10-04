@@ -7,7 +7,7 @@
     "node": "14.17.5"
   },
   "scripts": {
-    "build:css": "npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/styles.css",
+    "build": "npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/styles.css",
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
